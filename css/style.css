@@ -1,11 +1,122 @@
 body{
-    background-image: url(https://alice718star.github.io/projecttwo/img/amandamocciunsplashrev.jpg);
+    background-image: url(../img/amanda-mocci-90505-unsplash1400.jpg);
+    background-repeat: repeat;
+    font-family: 'Raleway', sans-serif;
     color: white;
 }
 
-.hungergames{
+nav{
+    padding-bottom: .5%;
+   
+}
+
+nav h1{
+    color: white;
+    font-size: 180px;
+    text-shadow: 5px 5px black; 
+    padding-left: 40px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+}
+
+.container h2{
+    text-align: center;
+    color: goldenrod;
+ 
+
+}
+
+.container{
+    
+    margin-top: 150px;
+}
+
+li a{
+    font-size: 20px;
+}
+
+img{
+    box-shadow: inset 10px 10px 20px 2px rgba(0,0,0,.5);
+}
+
+.modal-content h4, .modal-content p{
+    color: black;
+}
+
+
+.tab-content{
+    border: 1px solid white;
+}
+
+.tab-content h2{
+    color: white;
+    font-weight: bolder;
+}
+
+
+.hungergames, .catchingfire, .mockingjay, .underland{
     display: flex;
     flex: 1;
+    padding: 3%;
+    box-sizing:border-box;
+    border: 1px solid white;
+}
+
+
+
+.hungergames h3, .catchingfire h3, .mockingjay h3{
+    font-weight: bolder;
+     font-size: 28px;
+     text-shadow: 3px 3px grey;
+}
+
+.underland h3{
+    font-weight: bolder;
+    font-size: 24px;
+    text-shadow: 3px 3px grey;
+}
+
+.hungergames p, .catchingfire p, .mockingjay p, .underland p{
+    font-size: 18px;
+}
+
+.hungergamesdescription, .catchingfiredescription, .mockingjaydescription, .underlanddescription{
+    padding: 0% 3%;
+    box-sizing:border-box;
+}
+
+
+
+.mockingjaydescriptionbox, .underlanddescriptionbox{
+    display: flex;
+      box-sizing:border-box;
+}
+
+.mockingjaydescriptionboxa, .mockingjaydescriptionboxb{
+    flex: 1;
+    border: 1px solid white;
+}
+
+.mockingjaydescriptionboxb p, .underlanddescriptionboxa p{
+     font-style: italic;
+    font-size: 16px;
+    color: goldenrod;
+}
+
+.modal-body>button{
+    background-color:black;
+}
+
+.modal-body a{
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.hungergamesreviews p, .catchingfirereviews p, .mockingjayreviews p, .underlandreviews p{
+    font-style: italic;
+    font-size: 16px;
+    color: goldenrod;
 }
 
 
