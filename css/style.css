@@ -7,7 +7,6 @@ body{
 
 nav{
     padding-bottom: .5%;
-   
 }
 
 nav h1{
@@ -19,30 +18,30 @@ nav h1{
     font-family: 'Great Vibes', cursive;
 }
 
-.container h2{
-    text-align: center;
-    color: goldenrod;
- 
-
-}
-
-.container{
-    
-    margin-top: 150px;
-}
-
 li a{
     font-size: 20px;
 }
 
-img{
-    box-shadow: inset 10px 10px 20px 2px rgba(0,0,0,.5);
+.navbar-header{
+    color: goldenrod;
 }
 
-.modal-content h4, .modal-content p{
-    color: black;
+.container h2{
+    text-align: center;
+    color: goldenrod;
 }
 
+.container{
+    margin-top: 150px;
+}
+
+.row, .col-md-4, .col-md-8{
+    border: 1px solid white;
+}
+
+/*.row{
+    margin-bottom: 30px;
+}*/
 
 .tab-content{
     border: 1px solid white;
@@ -53,54 +52,8 @@ img{
     font-weight: bolder;
 }
 
-
-.hungergames, .catchingfire, .mockingjay, .underland{
-    display: flex;
-    flex: 1;
-    padding: 3%;
-    box-sizing:border-box;
-    border: 1px solid white;
-}
-
-
-
-.hungergames h3, .catchingfire h3, .mockingjay h3{
-    font-weight: bolder;
-     font-size: 28px;
-     text-shadow: 3px 3px grey;
-}
-
-.underland h3{
-    font-weight: bolder;
-    font-size: 24px;
-    text-shadow: 3px 3px grey;
-}
-
-.hungergames p, .catchingfire p, .mockingjay p, .underland p{
-    font-size: 18px;
-}
-
-.hungergamesdescription, .catchingfiredescription, .mockingjaydescription, .underlanddescription{
-    padding: 0% 3%;
-    box-sizing:border-box;
-}
-
-
-
-.mockingjaydescriptionbox, .underlanddescriptionbox{
-    display: flex;
-      box-sizing:border-box;
-}
-
-.mockingjaydescriptionboxa, .mockingjaydescriptionboxb{
-    flex: 1;
-    border: 1px solid white;
-}
-
-.mockingjaydescriptionboxb p, .underlanddescriptionboxa p{
-     font-style: italic;
-    font-size: 16px;
-    color: goldenrod;
+.modal-content h4{
+    color: black;
 }
 
 .modal-body>button{
@@ -113,7 +66,27 @@ img{
     font-size: 24px;
 }
 
-.hungergamesreviews p, .catchingfirereviews p, .mockingjayreviews p, .underlandreviews p{
+.row h3{
+    font-weight: bolder;
+    font-size: 28px;
+    text-shadow: 3px 3px grey;
+}
+
+.row p{
+    font-size: 18px;
+}
+
+.mockingjaydescription{
+    display: flex;
+    border: 1px solid white;
+}
+
+.mockingjaydescriptiona, .mockingjaydescriptionb{
+    flex: 1;
+    border: 1px solid white;
+}
+
+.hungergamesreviews p, .catchingfirereviews p, .mockingjaydescriptionb p, .mockingjayreviews p, .underlandreviews p{
     font-style: italic;
     font-size: 16px;
     color: goldenrod;
