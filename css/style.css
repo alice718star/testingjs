@@ -20,6 +20,10 @@ body{
     border: 1px solid pink;
 }
 
+div{
+    box-sizing:border-box;
+}
+
 .container h1{
     text-align: center;
     color: white;
@@ -29,18 +33,6 @@ body{
     font-family: 'Great Vibes', cursive;
     border: 1px solid grey;
 }
-
-
-
-
-/*@media screen and (max-width: 900px){
-    .navbar-brand h1{
-        font-size: 80px;
-        padding-left: 5px;
-        margin-top: 100px;
-    }
-    
-}*/
 
 
 li a{
@@ -60,11 +52,8 @@ li a{
 
 .row, .col-md-4, .col-md-8{
     border: 1px solid white;
+    padding: 1%;
 }
-
-/*.row{
-    margin-bottom: 30px;
-}*/
 
 
 .tab-content{
@@ -119,13 +108,29 @@ li a{
     color: goldenrod;
 }
 
-@media screen and (max-width: 768px){
+
+@media screen and (max-width: 1190px){
+    .col-md-8{
+        padding-left: 40px;
+    }
+    .col-md-9{
+        padding-left: 60px;
+    }
+}
+
+@media screen and (max-width: 800px){
     .container h1{
         font-size: 100px;
     }
     .col-md-4, .col-md-3{
         display: flex;
         justify-content: center;
+    }
+    .col-md-8{
+        padding-right: 40px;
+    }
+    .col-md-9{
+        padding-right: 60px;
     }
 }
 
