@@ -1,3 +1,8 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 body{
     background-image: url(../img/amanda-mocci-90505-unsplash1400.jpg);
     background-repeat: repeat;
@@ -5,26 +10,43 @@ body{
     color: white;
 }
 
-nav{
-    padding-bottom: .5%;
+.navbar-brand{
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
 }
 
-nav h1{
+.navbar-header{
+    color: goldenrod;
+    border: 1px solid pink;
+}
+
+.container h1{
+    text-align: center;
     color: white;
-    font-size: 180px;
+    font-size: 160px;
     text-shadow: 5px 5px black; 
-    padding-left: 40px;
     font-weight: bold;
     font-family: 'Great Vibes', cursive;
+    border: 1px solid grey;
 }
+
+
+
+
+/*@media screen and (max-width: 900px){
+    .navbar-brand h1{
+        font-size: 80px;
+        padding-left: 5px;
+        margin-top: 100px;
+    }
+    
+}*/
+
 
 li a{
     font-size: 20px;
 }
 
-.navbar-header{
-    color: goldenrod;
-}
 
 .container h2{
     text-align: center;
@@ -32,7 +54,8 @@ li a{
 }
 
 .container{
-    margin-top: 150px;
+    /*margin-top: 100px;*/
+    border: 1px solid yellow;
 }
 
 .row, .col-md-4, .col-md-8{
@@ -43,6 +66,7 @@ li a{
     margin-bottom: 30px;
 }*/
 
+
 .tab-content{
     border: 1px solid white;
 }
@@ -50,6 +74,9 @@ li a{
 .tab-content h2{
     color: white;
     font-weight: bolder;
+    font-family: 'Raleway', cursive;
+    font-size: 34px;
+    color: goldenrod;
 }
 
 .modal-content h4{
@@ -90,6 +117,29 @@ li a{
     font-style: italic;
     font-size: 16px;
     color: goldenrod;
+}
+
+@media screen and (max-width: 768px){
+    .container h1{
+        font-size: 100px;
+    }
+    .col-md-4, .col-md-3{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .container h1{
+        font-size: 70px;
+    }
+    .col-md-4{
+        display: flex;
+        justify-content: center;
+    }
+    .mockingjaydescription{
+        flex-direction: column;
+    }
 }
 
 
